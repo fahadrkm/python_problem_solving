@@ -2,14 +2,13 @@ def multi(**arg):
     if 'name' in arg:
         print(f"hello {arg['name']} !")
     elif 'roll'  in arg:
-        if 'roll' == int:
-            print(f"number is  {arg['roll']}")
+        print(f"number is  {arg['roll']}")
     else:
         print("no arguments passed")
 
 
 multi()
 multi(name="fahad")
-multi(roll=int(23))
+multi(roll=33)
 
 
