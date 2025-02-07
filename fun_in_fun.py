@@ -6,7 +6,6 @@ def square(x):
 
 print(sq(square,5))
 
-
 "op"
 #25
 
